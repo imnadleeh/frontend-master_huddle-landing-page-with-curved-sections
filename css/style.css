@@ -35,7 +35,7 @@ header {
 
 .section_1   {
   text-align: center;
-  margin-top: 275px;
+  margin-top: 270px;
 }
 
 .title {
@@ -59,12 +59,78 @@ header {
   background-color: hsl(322, 100%, 66%);
   font-size: 22px;
   display: inline-block;
-  padding: 32px 121px;
-  border-radius: 52px;
-  margin-top: 38px;
+  padding: 32px 119px;
+  border-radius: 54px;
+  margin-top: 36px;
   letter-spacing: 0.7px;
-  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
 
+.section_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.screen-mockups {
+  width: calc(1035px*1.18);
+}
+
+.section_3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.column_1 {
+  margin-bottom: 90px;
+  margin-right: 20px;
+}
+
+
+.column_2 {
+  margin-bottom: 80px;
+  margin-left: -10px;
+}
+
+.communities {
+  width: calc(47px*1.2);
+  margin-top: 8px;
+  margin-right: 250px;
+}
+
+.messages {
+  width: calc(48px*1);
+  margin-right: 242px;
+}
+
+.stats_1,
+.stats_2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 113px;
+}
+
+.stats_1 {
+  margin-right: 22px;
+  margin-bottom: 10px;
+}
+
+.stats_2 {
+  margin-left: 27px;
+  margin-bottom: 10px;
+}
+
+.text_1,
+.text_2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    color: hsl(207, 6%, 63%);
+    margin-right: 24px;
+}
+
+.text_2 {
+  margin-right: 7px;
 }
 
 .attribution {
