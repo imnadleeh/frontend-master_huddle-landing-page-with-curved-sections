@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -11,25 +17,27 @@ body {
 }
 
 header {
-  width: 92%;
   max-width: 1440px;
-  margin: 75px auto;
+  margin: 75px 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  width: calc(240px/2);
-  height: calc(39px/2);
+  width: calc(240px*1.18);
 }
 
 .try-button {
+  font-family: "Open Sans", sans-serif;
   color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
-  font-size: ;
-  display: inline-block;
+  font-size: 19px;
+  display: inline;
+  padding: 10px 36px;
+  border-radius: 25px;
+  margin-right: -95px;
 }
-
 
 .attribution {
   font-size: 11px;
