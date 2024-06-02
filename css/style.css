@@ -254,6 +254,37 @@ header {
   margin-bottom: 10px;
   margin-left: 10px;
   font-weight: 700;
+  margin-top: -160px;
+}
+
+.footer-top {
+  width: 100%;
+  margin-top: 206px;
+  margin-bottom: -5px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(192, 100%, 9%);
+  padding: 300px;
+}
+
+.footer-column_1 {
+  width: 300px;
+}
+
+.phone {
+  display: flex;
+}
+
+.email {
+  display: flex;
+}
+
+.logo_2 {
+  filter: brightness(0) invert(1);
 }
 
 .attribution {
