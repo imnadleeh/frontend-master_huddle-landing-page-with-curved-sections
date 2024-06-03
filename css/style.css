@@ -268,24 +268,68 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: hsl(192, 100%, 9%);
-  padding: 300px;
+  padding-bottom: 272px;
 }
 
 .footer-column_1 {
-  width: 300px;
+  width: 370px;
+  margin-left: 141px;
+  margin-top: 158px;
 }
 
 .phone {
   display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .email {
   display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icon-phone {
+  margin-right: 20px;
+  height: calc(18px * 1.2);
+}
+
+.icon-email {
+  margin-right: 20px;
+  height: calc(16px * 1.2);
 }
 
 .logo_2 {
   filter: brightness(0) invert(1);
+  width: calc(240px * 1.15)
 }
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
+  line-height: 1.8;
+  margin-top: 25px;
+  letter-spacing: .7px;
+}
+
+.phone-number {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.email-address {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+
 
 .attribution {
   font-size: 11px;
