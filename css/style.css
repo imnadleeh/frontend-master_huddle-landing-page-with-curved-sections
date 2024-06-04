@@ -273,7 +273,7 @@ header {
 .footer-column_1 {
   width: 370px;
   margin-left: 141px;
-  margin-top: 156px;
+  margin-top: 150px;
 }
 
 .phone {
@@ -354,16 +354,16 @@ header {
 .footer-column_2 {
   width: 370px;
   margin-left: 141px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .newsletter {
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 29px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 1000px;
+  margin-left: -45px;
+  letter-spacing: 0.8px;
 }
 
 .footer-text_2 {
@@ -374,6 +374,37 @@ header {
   text-align: start;
   line-height: 1.8;
   letter-spacing: 0.7px;
+  margin-left: -45px;
+  margin-top: 18px;
+}
+
+.form-row_4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 42px;
+}
+
+#email {
+  margin-left: -50px;
+}
+
+input {
+  width: 385px;
+  height: 59px;
+  border-radius: 10px;
+}
+
+.subscribe-button {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 18px;
+  display: inline-block;
+  padding: 15px 48px;
+  border-radius: 6px;
+  margin-left: 45px;
 }
 
 .attribution {
