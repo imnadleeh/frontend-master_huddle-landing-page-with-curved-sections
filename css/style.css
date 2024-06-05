@@ -385,11 +385,11 @@ header {
   margin-top: 42px;
 }
 
-#email {
+.subscribe-form {
   margin-left: -50px;
 }
 
-input {
+.input-box {
   width: 385px;
   height: 59px;
   border-radius: 10px;
